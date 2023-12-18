@@ -6,5 +6,6 @@ if sys.version_info[0] < 3:  # pragma: no cover
 from .tables import NULL  # noqa: F401
 from .tables import TableGroup  # noqa: F401
 from .util import set_print_options  # noqa: F401
+from .graph import GIG  # noqa: F401
 
 _print_options = {"max_lines": 40}
